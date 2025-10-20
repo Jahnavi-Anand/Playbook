@@ -1,50 +1,72 @@
-# PDF to Audio Converter 🎧
+# 📘 PDF to Audio Converter
 
-A simple Python script that converts any PDF file into speech and saves it as an MP3 audio file.  
-It uses **PyPDF2** to extract text from PDFs and **pyttsx3** for text-to-speech conversion.
+Convert any **PDF file into an MP3 audio file** using Python!  
+This script extracts text from a PDF using **PyPDF2** and converts it to speech using **pyttsx3**.
 
 ---
 
-## 📦 Installation
+## 🧰 Requirements
 
-Make sure you have **Python 3.12+** installed.  
-Then install the required libraries:
+- Python **3.12+**
+- The following libraries:
+  ```bash
+  pip install PyPDF2 pyttsx3
+````
 
-```bash
-pip install PyPDF2 pyttsx3
-```
-🚀 Usage
-Place your PDF file (e.g., file.pdf) in the same directory as index.py.
+---
 
-Open a terminal in that folder.
+## 🚀 How to Use
 
-Run the script:
+1. Clone or download this repository.
+2. Place your PDF (e.g., `file.pdf`) in the same directory as `index.py`.
+3. Update the file path in your script if needed:
 
-bash
-Copy code
-python index.py
+   ```python
+   output_path = r"<YOUR_FULL_PATH>\audio.mp3"
+   ```
+4. Open a terminal in the project directory and run:
+
+   ```bash
+   python index.py
+   ```
+
 The program will:
 
-Read all pages of your file.pdf
+* Read your PDF file
+* Convert its text into spoken words
+* Save the output as an MP3 file at the specified path
 
-Convert the text to speech
+---
 
-Save the audio as audio.mp3 in the same folder
+## 📁 Example Project Structure
 
-🧩 File Structure
-css
-Copy code
+```
 Playbook/
 ├── file.pdf
 ├── index.py
-├── audio.mp3
-└── README.md
-⚙️ Notes
-Ensure your PDF contains selectable text (not scanned images).
+├── README.md
+└── <YOUR_FULL_PATH>\audio.mp3
+```
 
-For scanned PDFs, you’ll need OCR tools like pytesseract.
+---
 
-You can change the output file path inside the script if needed.
+## ⚙️ Notes
 
-Author: Jahnavi
-License: MIT
+* Works best with **text-based PDFs** (not scanned images).
+* For scanned PDFs, consider using OCR tools like `pytesseract`.
+* You can modify the voice, speed, or output file name in the script using the `pyttsx3` settings.
+
+---
+
+## 🧑‍💻 Author
+
+**Jahnavi**
+Built with 💙 in Python.
+
+---
+
+## 🪪 License
+
+This project is licensed under the **MIT License** — free to use and modify.
+
+```
