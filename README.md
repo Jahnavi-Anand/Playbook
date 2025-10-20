@@ -9,9 +9,9 @@ This script extracts text from a PDF using **PyPDF2** and converts it to speech 
 
 - Python **3.12+**
 - The following libraries:
-  ```bash
+```bash
   pip install PyPDF2 pyttsx3
-````
+```
 
 ---
 
