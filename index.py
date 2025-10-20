@@ -12,6 +12,6 @@ for page_num in range(len(pdfReader.pages)):
 
 speaker.stop()
 
-output_path = r"ypur-path-to-playbook"
+output_path = r"<YOUR_FULL_PATH>\audio.mp3"
 speaker.save_to_file(text, output_path)
 speaker.runAndWait()
