@@ -12,6 +12,6 @@ for page_num in range(len(pdfReader.pages)):
 
 speaker.stop()
 
-output_path = r"C:\sonar-scanner-5.0.1.3006-windows\bin\Playbook\audio.mp3"
+output_path = r"ypur-path-to-playbook"
 speaker.save_to_file(text, output_path)
 speaker.runAndWait()
