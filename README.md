@@ -45,7 +45,7 @@ Playbook/
 ├── file.pdf
 ├── index.py
 ├── README.md
-└── <YOUR_FULL_PATH>\audio.mp3
+└── audio.mp3
 ```
 
 ---
@@ -60,13 +60,11 @@ Playbook/
 
 ## 🧑‍💻 Author
 
-**Jahnavi**
-Built with 💙 in Python.
+**Jahnavi Anand**
+Built with 💜 in Python.
 
 ---
 
 ## 🪪 License
 
 This project is licensed under the **MIT License** — free to use and modify.
-
-```
